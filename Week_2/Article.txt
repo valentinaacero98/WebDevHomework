@@ -1,0 +1,7 @@
+Valentina Acero
+January 31st, 2018
+Intro to Web Development
+Homework Assignment #2
+
+
+Wireframing: is defined as the page schematic or screen blueprint visual guide that represents the skeletal framework of a website. After reading the article I found the top 5 considerations when looking or building a wireframe for a website. The first consideration is “Clarify the Problem” which means to gain clarity about the issues in order to create a better solution. Ask questions like, “What is this project?, what problem is it solving? How do we know it is a problem? Who is it for exactly? Etc.” The second consideration is workflows and sketches; sketching out screens and workflows for the user is important and pinning down the workflow and necessary screens will streamline the process and help wireframe designs. The third consideration is, Get feedback early, it is important for you to get feedback early in the process from developers, designers, and even the product managers. The fourth consideration is know your tools, or in other words understand how to use your tools and learn the shortcuts, your energy should be spent on how to creatively solve a problem and not how to use your tool. And lastly, the final consideration is to know your audience, the fidelity of your wireframe should be tailored to the audience. 
