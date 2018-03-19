@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+<meta name="viewport" content="width=device-width, initial-scale=0>
+
+div {
+    background-color: white;
+    text-decoration-color: white;
+}
+
+ul {
+    list-style-type: none;
+    margin: 50;
+    padding: 50;
+    overflow: hidden;
+    background-color: white;
+}
+
+
+li {
+    float: left;
+    border-right:30px solid#bbb;
+}
+
+li:last-child {
+    border-right: none;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    font-size: 80px;
+    font-style: italic;
+    font-weight: 900;
+    font-family: "Bradley Hand, cursive"
+    padding: 14px 16px;
+}
+
+
+</style>
+</head>
+
+
+<body style="background-image:url('fashion.jpg')">
+<nav>
+<ul id="nav">
+  <li><a href="Midterm.html">Home</a></li>
+  <li><a href="mood.html">Mood</a></li>
+  <li><a href="color.html">Color</a></li>
+</ul>
+</nav>
+
+
+<center>
+
+<div class="mySlides fade">
+  <img src="yellow1.jpg" style="width:20%"
+  <div class="Yellow"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="Red3.jpg" style="width:20%">
+    <div class="Red"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="orange3.jpg" style="width:20%"">
+  <div class="orange"></div>
+</div>
+
+<div class="mySlides fade">
+  <img src="rainbow.jpg" style="width:20%"">
+  <div class="rainbow"></div>
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+
+
+    <h1> Psychology: Color 
+      <br>
+      <br/>
+    Does color affect your mood? Psychologists have said "Absolutely!" to that question for a very long time. The psychological effects of color have such an underpinning in research that the findings of chromology, the psychology of color, are used in designing everything from hotel rooms to cereal....
+    Color also really affects fashion and how we see each other!! In one experiment, researchers photographed people in different colored clothes and then asked participants to rate the attractiveness of people in the resulting photos. They found that the color of clothing affects the way in which men rate both males' and females' attractiveness, and how women rate men's attractiveness. Interestingly however, clothing color did not influence women's judgement of other females.
+
+This brings us to the question: which colors are viewed as attractive?
+
+Roberts and his fellow researchers found that red clothes would tend to lead participants to rate subjects more favorably in terms of attractiveness compared to when they wore clothes of other colors.
+This result might explain the findings of a study which found that, when waitresses wore different colored t-shirts whilst serving in a restaurant, men would tend to leave higher tips for those wearing red tops than those with t-shirts of other colors. However, shirt color had no effect on the tips left by female customers.
+</h1>
+
+    <img align="middle
+    " src="color.jpg" height="600" width="400">
+</div>
+
+
+
+<!-- Javascript code for the slideshow -->
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex > slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 3000); 
+}
+
+
+</script>
+
+</body>
+
+</html>
+
+
+
