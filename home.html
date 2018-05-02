@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #000000;
+  }
+  p {font-size: 25px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 { 
+      background-color: #000000; /*black */
+      color: #ffffff;
+  }
+  .bg-2 { 
+      background-color: #ffffff; /* white Blue */
+      color: #000000;
+  }
+  .bg-3 { 
+      background-color: #000000; /* black */
+      color: #ffffff;
+  }
+  .bg-4 { 
+      background-color: #ffffff; /* white*/
+      color: #000000;
+  }
+  .container-fluid {
+      padding-top: 20px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 35px;
+      padding-bottom: 35px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 40px;
+      letter-spacing: 15px;
+      font-family: impact;
+      color: 000000;
+  }
+  .navbar-nav  li a:hover {
+      color: #ff1493 !important;
+  }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-default">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+ <!--      <a class="navbar-brand" href="#">HOME</a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar"> V.A.
+    </div>      <ul class="nav navbar-nav navbar-right">
+        <li><a href="home.html">HOME</a></li>
+        <li><a href="mood.html">MOOD</a></li>
+        <li><a href="color.html">COLOR</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+ <video width="800" height="500" controls autoplay="">
+  <source src="fashion.mp4" type="video/mp4"></video>
+  <h3></h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin"> # F A S H I O N</h3>
+
+</div>
+
+<!-- Third Container (Grid) -->
+<div class="container-fluid bg-3 text-center">    
+  <h3 class="margin">What are we?</h3><br>
+  <div class="row">
+    <div class="col-sm-4">
+      <p>Welcome to Sway, a savvy and sassy site made just for young girls to be informed and inspired!  </p>
+      <img src="vogue.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>We encourage this by having a section where you can read about the psychological aspects of color and our mood with fashion</p>
+      <img src="fashion.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-4"> 
+      <p>We also hope you get some fashion ideas for your own wardrobe depending on mood and color!</p>
+      <img src="fashion2.jpg" class="img-responsive margin" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="container-fluid bg-4 text-center">
+  <div class="container">
+   Questions or suggestions? Contact below!
+<BR>
+</BR>
+  <form action="action_page.php">
+
+    <label for="fname">Name</label>
+    <input type="text" id="fname" name="firstname" >
+<BR>
+</BR>
+
+    <label for="lname">Email</label>
+    <input type="text" id="lname" name="lastname" >
+
+    <label for="subject"></label>
+    <BR></BR>
+    <textarea id="subject" name="subject" placeholder="Message.." style="height:200px"></textarea>
+<BR>
+</BR>
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</nav>
+
+</div>
+
+</footer>
+
+</body>
+</html>
